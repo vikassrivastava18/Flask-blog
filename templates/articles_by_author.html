@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block css %}
+<style>
+     span{
+        padding: 5px;
+        margin: 5px;
+     }
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Articles by {{ username }} &nbsp;
+        {% if not username == current_user.username %}
+            {% if following %}
+                <a href="{{ url_for('unfollow', username=username) }}">Unfollow</a>
+            {% else %}
+                <a href="{{ url_for('follow', username=username) }}">Follow</a>
+            {% endif %}
+        {% else %}
+
+        <a href="{{ url_for('edit_profile') }}">Edit Profile</a>
+        {% endif %}
+
+
+    </h3>
+
+    {% for article in articles.items %}
+    <div class="card">
+      <div class="card-header">
+        <h4>
+            <a href="{{ url_for('articles_details', article_id=article.Article.article_id) }}">{{ article.Article.title }}</a>
+        </h4>
+      </div>
+      <div class="card-body">
+            <p>
+                {{ article.Article.content|truncate() }}
+            </p>
+          <p>
+              <img src="{{url_for('static', filename='images/like2.png')}}" style="width:30px;" alt="Website Logo">
+                ({{ article.Article.likes|length }})
+
+              <a href="{{ url_for('article_edit', article_id=article.Article.article_id) }}"
+              class="btn btn-primary">Edit</a> &nbsp;
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Delete
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Are you sure you want to delete the Blog?
+                      </div>
+                      <div class="modal-footer">
+                          <a href="#" class="btn btn-secondary">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </a>
+
+                        <button type="button" class="btn btn-danger">
+                            <a class="btn btn-danger"
+                               href="{{ url_for('article_delete', article_id=article.Article.article_id) }}">
+                               Delete
+                            </a>
+
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </p>
+      </div>
+    </div>
+    <hr>
+    {% endfor %}
+
+
+    </div>
+
+<div class="pagination">
+    {% if articles.has_prev %}
+        <span>
+            <a class='page-number' href="{{ url_for('articles_by_author', user_name=username, page=articles.prev_num) }}">
+                {{ '<<<' }}
+            </a>
+        </span>
+    {% endif %}
+
+    {% for number in articles.iter_pages() %}
+        {% if articles.page != number %}
+            <span>
+                    <a href="{{ url_for('articles_by_author', user_name=username, page=number) }}">
+                    {{ number }}
+                    </a>
+            </span>
+        {% else %}
+            <span>{{ number }}</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if articles.has_next %}
+        <span>
+            <a href="{{ url_for('articles_by_author', user_name=username, page=articles.next_num) }}">{{ '>>>' }}</a>
+        </span>
+    {% endif %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block css %}
+<style>
+     span{
+        padding: 5px;
+        margin: 5px;
+     }
+</style>
+{% endblock %}
+{% block content %}
+<h3 class="title">Articles</h3>
+<br>
+
+{% for article in articles.items %}
+    <div class="card">
+      <div class="card-header">
+        <h4>
+            <a href="{{ url_for('articles_details', article_id=article.Article.article_id) }}">
+                {{ article.Article.title }}</a>
+                <a href="{{ url_for('articles_by_author', user_name=article.User.username) }}">
+                    ({{ article.User.username }} - {{ article.Article.timestamp.strftime('%Y-%m-%d') }})
+                </a>
+        </h4>
+      </div>
+      <div class="card-body">
+            <p>
+                {{ article.Article.content|truncate() }}
+            </p>
+      </div>
+    </div>
+    <hr>
+
+{% endfor %}
+
+<div>
+    {% if articles.has_prev %}
+        <span>
+            <a href="{{ url_for('articles', page=articles.prev_num) }}">{{ '<<<' }}</a>
+        </span>
+    {% endif %}
+
+    {% for number in articles.iter_pages() %}
+        {% if articles.page != number %}
+            <span>
+                    <a href="{{ url_for('articles', page=number) }}">
+                    {{ number }}
+                    </a>
+            </span>
+        {% else %}
+            <span>{{ number }}</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if articles.has_next %}
+        <span>
+            <a href="{{ url_for('articles', page=articles.next_num) }}">
+                {{ '>>>' }}
+            </a>
+        </span>
+    {% endif %}
+</div>
+
+{% endblock %}

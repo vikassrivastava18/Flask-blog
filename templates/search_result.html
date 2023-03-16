@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block css %}
+<style>
+     span{
+        padding: 5px;
+        margin: 5px;
+     }
+</style>
+{% endblock %}
+{% block content %}
+<h3 class="title">Users</h3>
+<br>
+
+{% for user in users.items %}
+    <div class="card">
+      <div class="card-header">
+        <h4>
+            <a href="{{ url_for('articles_by_author', user_name=user.username) }}">
+                {{ user.username }}</a>
+        </h4>
+      </div>
+      <div class="card-body">
+          {% for article in user.articles %}
+            <p>
+                <a href="{{ url_for('articles_details', article_id=article.article_id) }}">
+                {{ article.title }}
+                </a>
+            </p>
+            <p>
+                <img src="{{url_for('static', filename='images/like2.png')}}" style="width:30px;"
+                     alt="Website Logo">
+                ({{ article.likes|length }})
+            </p>
+          {% endfor %}
+      </div>
+    </div>
+    <hr>
+
+{% endfor %}
+
+<div>
+    {% if users.has_prev %}
+        <span>
+            <a href="{{ url_for('users', page=users.prev_num) }}">{{ '<<<' }}</a>
+        </span>
+    {% endif %}
+
+    {% for number in users.iter_pages() %}
+        {% if users.page != number %}
+            <span>
+                    <a href="{{ url_for('users', page=number) }}">
+                    {{ number }}
+                    </a>
+            </span>
+        {% else %}
+            <span>{{ number }}</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if users.has_next %}
+        <span>
+            <a href="{{ url_for('users', page=users.next_num) }}">
+                {{ '>>>' }}
+            </a>
+        </span>
+    {% endif %}
+</div>
+
+{% endblock %}
