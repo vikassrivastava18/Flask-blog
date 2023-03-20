@@ -2577,3 +2577,579 @@
 2023-01-25 12:18:26,291 INFO werkzeug Thread-172 : 127.0.0.1 - - [25/Jan/2023 12:18:26] "GET /articles HTTP/1.1" 200 -
 2023-01-25 12:18:26,319 INFO werkzeug Thread-173 : 127.0.0.1 - - [25/Jan/2023 12:18:26] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
 2023-01-25 12:18:26,327 INFO werkzeug Thread-174 : 127.0.0.1 - - [25/Jan/2023 12:18:26] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:42:56,573 INFO app MainThread : Staring Local Development.
+2023-03-20 11:42:56,573 INFO app MainThread : App setup complete
+2023-03-20 11:42:56,906 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 11:42:56,906 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 11:42:56,906 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:42:57,426 INFO app MainThread : Staring Local Development.
+2023-03-20 11:42:57,426 INFO app MainThread : App setup complete
+2023-03-20 11:42:57,535 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:42:57,535 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:43:23,787 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:23] "GET / HTTP/1.1" 200 -
+2023-03-20 11:43:23,893 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:23] "GET /static/blog.css HTTP/1.1" 200 -
+2023-03-20 11:43:25,056 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:25] "GET /static/images/book.png HTTP/1.1" 200 -
+2023-03-20 11:43:25,120 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:25] "GET /static/images/think.jpg HTTP/1.1" 200 -
+2023-03-20 11:43:26,653 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-20 11:43:40,918 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:40] "GET /login HTTP/1.1" 200 -
+2023-03-20 11:43:40,930 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:40] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:43:40,931 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:40] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:43:42,734 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-20 11:43:42,784 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:42] "GET /login HTTP/1.1" 200 -
+2023-03-20 11:43:42,793 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:42] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:43:42,794 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:42] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:43:53,849 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-20 11:43:53,868 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:53] "GET /articles HTTP/1.1" 200 -
+2023-03-20 11:43:53,884 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:53] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:43:53,886 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:43:53] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:44:04,169 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:04] "GET /articles HTTP/1.1" 200 -
+2023-03-20 11:44:04,180 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:04] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:44:04,182 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:04] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:44:05,840 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:05] "GET /feed/vikas HTTP/1.1" 200 -
+2023-03-20 11:44:05,852 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:05] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:44:05,854 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:05] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:44:06,991 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:06] "GET /article-create HTTP/1.1" 200 -
+2023-03-20 11:44:07,006 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:07] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:44:07,007 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:07] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:44:47,427 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:44:47] "[33mGET /article- HTTP/1.1[0m" 404 -
+2023-03-20 11:45:15,276 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:15] "[32mPOST /article-create HTTP/1.1[0m" 302 -
+2023-03-20 11:45:15,315 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:15] "GET /articles HTTP/1.1" 200 -
+2023-03-20 11:45:15,330 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:15] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:45:15,332 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:15] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:45:18,000 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:18] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:45:18,008 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:18] "GET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-03-20 11:45:18,010 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:18] "GET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-03-20 11:45:18,135 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:18] "GET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-03-20 11:45:18,160 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:18] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:45:35,010 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:35] "GET /articles-by/vikas HTTP/1.1" 200 -
+2023-03-20 11:45:35,019 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:35] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:45:35,022 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:35] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:45:35,039 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:35] "GET /static/images/like2.png HTTP/1.1" 200 -
+2023-03-20 11:45:37,439 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:37] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:45:37,452 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:37] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:45:37,455 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:37] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:45:37,476 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:45:37] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:49:12,749 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:12] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:49:12,763 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:12] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:49:12,766 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:12] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:49:12,771 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:12] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:49:12,794 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:12] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:49:46,636 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:46] "[35m[1mGET /article-details/1 HTTP/1.1[0m" 500 -
+2023-03-20 11:49:46,647 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:46] "GET /article-details/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-03-20 11:49:46,649 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:46] "GET /article-details/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-03-20 11:49:46,668 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:46] "GET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-03-20 11:49:46,682 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:49:46] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:51:53,705 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:51:53,783 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:51:56,281 INFO app MainThread : Staring Local Development.
+2023-03-20 11:51:56,281 INFO app MainThread : App setup complete
+2023-03-20 11:51:56,943 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:51:56,943 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:51:59,619 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:51:59] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:52:24,793 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:52:24,871 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:52:25,439 INFO app MainThread : Staring Local Development.
+2023-03-20 11:52:25,439 INFO app MainThread : App setup complete
+2023-03-20 11:52:25,538 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:52:25,538 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:52:27,672 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:52:27] "[35m[1mGET /article-details/1 HTTP/1.1[0m" 500 -
+2023-03-20 11:52:27,731 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:52:27] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:52:27,731 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:52:27] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:52:27,743 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:52:27] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:52:27,752 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:52:27] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:53:12,884 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:53:13,010 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:53:13,514 INFO app MainThread : Staring Local Development.
+2023-03-20 11:53:13,514 INFO app MainThread : App setup complete
+2023-03-20 11:53:13,607 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:53:13,607 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:53:34,130 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:53:34,229 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:53:34,748 INFO app MainThread : Staring Local Development.
+2023-03-20 11:53:34,748 INFO app MainThread : App setup complete
+2023-03-20 11:53:34,842 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:53:34,842 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:53:36,475 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:36] "[35m[1mGET /article-details/1 HTTP/1.1[0m" 500 -
+2023-03-20 11:53:36,533 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:36] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:53:36,534 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:36] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:53:36,544 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:36] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:53:36,552 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:36] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:53:53,412 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:53:53,478 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:53:54,040 INFO app MainThread : Staring Local Development.
+2023-03-20 11:53:54,040 INFO app MainThread : App setup complete
+2023-03-20 11:53:54,133 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:53:54,149 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:53:55,820 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:53:55] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:54:28,153 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:54:28,215 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:54:28,802 INFO app MainThread : Staring Local Development.
+2023-03-20 11:54:28,802 INFO app MainThread : App setup complete
+2023-03-20 11:54:28,896 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:54:28,896 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:54:30,961 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:30] "[35m[1mGET /article-details/1 HTTP/1.1[0m" 500 -
+2023-03-20 11:54:31,018 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:31] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:54:31,019 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:31] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:54:31,029 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:31] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:54:31,038 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:31] "[36mGET /article-details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:54:51,564 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:54:51,628 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:54:52,266 INFO app MainThread : Staring Local Development.
+2023-03-20 11:54:52,266 INFO app MainThread : App setup complete
+2023-03-20 11:54:52,384 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:54:52,400 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:54:55,600 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:54:55] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:55:27,360 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:55:27,556 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:55:28,198 INFO app MainThread : Staring Local Development.
+2023-03-20 11:55:28,198 INFO app MainThread : App setup complete
+2023-03-20 11:55:28,292 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:55:28,292 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:55:40,424 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:55:40] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:55:40,496 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:55:40] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:55:40,518 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:55:40] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:55:40,519 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:55:40] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 11:55:40,545 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:55:40] "GET /static/images/create-driver.PNG HTTP/1.1" 200 -
+2023-03-20 11:56:37,759 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:37] "GET / HTTP/1.1" 200 -
+2023-03-20 11:56:37,774 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:37] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:56:37,774 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:37] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:56:37,777 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:37] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 11:56:39,240 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:39] "GET /articles HTTP/1.1" 200 -
+2023-03-20 11:56:39,250 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:39] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:56:39,251 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:39] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:56:56,950 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:56] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:56:56,960 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:56] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:56:56,962 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:56] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:56:56,978 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:56] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:56:59,820 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:59] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:56:59,831 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:59] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:56:59,833 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:59] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:56:59,845 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:59] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:56:59,858 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:56:59] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:00,653 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:00] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:57:00,663 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:00] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:00,665 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:00] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:57:00,678 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:00] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:00,686 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:00] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:02,985 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:02] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:57:02,995 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:02] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:03,000 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:03] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:03,001 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:03] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:03,002 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:03] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 11:57:07,206 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:07] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:57:07,215 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:07] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:07,216 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:07] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:57:07,230 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:07] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:32,290 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:32] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:57:32,300 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:32] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:32,301 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:32] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:57:32,306 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:32] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:32,318 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:32] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:35,994 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:35] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:57:36,004 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:36] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:36,007 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:36] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:36,012 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:36] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:36,014 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:36] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 11:57:38,987 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:38] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:57:38,998 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:38] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:39,002 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:39] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:39,004 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:39] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:39,005 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:39] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 11:57:44,636 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:44] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:57:44,672 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:44,673 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:57:44,680 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:55,922 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:55] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:57:55,934 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:55] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:55,936 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:55] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:55,939 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:55] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 11:57:55,940 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:55] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 11:57:58,281 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:58] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:57:58,292 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:58] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:57:58,295 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:58] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:57:58,301 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:57:58] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:58:41,598 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:58:41,661 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:58:42,250 INFO app MainThread : Staring Local Development.
+2023-03-20 11:58:42,250 INFO app MainThread : App setup complete
+2023-03-20 11:58:42,346 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:58:42,346 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:58:44,464 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:58:44] "[35m[1mGET /article-details/2 HTTP/1.1[0m" 500 -
+2023-03-20 11:58:44,522 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:58:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-03-20 11:58:44,523 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:58:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-03-20 11:58:44,537 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:58:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:58:44,541 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:58:44] "[36mGET /article-details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-03-20 11:59:05,054 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:59:05,132 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:59:05,622 INFO app MainThread : Staring Local Development.
+2023-03-20 11:59:05,622 INFO app MainThread : App setup complete
+2023-03-20 11:59:05,700 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:59:05,700 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:59:07,374 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:59:07] "GET /article-details/2 HTTP/1.1" 200 -
+2023-03-20 11:59:25,556 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:59:25] "GET /article-details/3 HTTP/1.1" 200 -
+2023-03-20 11:59:37,586 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 11:59:37,664 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 11:59:38,246 INFO app MainThread : Staring Local Development.
+2023-03-20 11:59:38,246 INFO app MainThread : App setup complete
+2023-03-20 11:59:38,334 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 11:59:38,334 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 11:59:41,153 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:59:41] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 11:59:46,987 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 11:59:46] "GET /article-details/2 HTTP/1.1" 200 -
+2023-03-20 12:00:01,002 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 12:00:01,106 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 12:00:01,647 INFO app MainThread : Staring Local Development.
+2023-03-20 12:00:01,647 INFO app MainThread : App setup complete
+2023-03-20 12:00:01,741 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 12:00:01,741 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 12:00:16,135 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 12:00:16,197 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 12:00:16,805 INFO app MainThread : Staring Local Development.
+2023-03-20 12:00:16,821 INFO app MainThread : App setup complete
+2023-03-20 12:00:17,003 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 12:00:17,008 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 12:02:41,296 INFO app MainThread : Staring Local Development.
+2023-03-20 12:02:41,296 INFO app MainThread : App setup complete
+2023-03-20 12:38:32,497 INFO app MainThread : Staring Local Development.
+2023-03-20 12:38:32,497 INFO app MainThread : App setup complete
+2023-03-20 12:38:32,654 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 12:38:32,654 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 12:38:32,654 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 12:38:33,158 INFO app MainThread : Staring Local Development.
+2023-03-20 12:38:33,158 INFO app MainThread : App setup complete
+2023-03-20 12:38:33,257 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 12:38:33,257 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 12:38:46,315 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:46] "GET /article-details/2 HTTP/1.1" 200 -
+2023-03-20 12:38:46,430 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:46] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:46,432 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:46] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:38:46,434 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:46] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:46,437 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:46] "GET /static/images/my-image.jpg HTTP/1.1" 200 -
+2023-03-20 12:38:52,793 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:52] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 12:38:52,827 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:52] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:38:52,829 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:52] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:52,831 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:52] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:52,831 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:52] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 12:38:57,472 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:57] "GET /article-details/2 HTTP/1.1" 200 -
+2023-03-20 12:38:57,484 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:57] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:38:57,486 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:57] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:57,487 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:57] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:38:57,489 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:38:57] "[36mGET /static/images/my-image.jpg HTTP/1.1[0m" 304 -
+2023-03-20 12:39:15,775 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-20 12:39:15,791 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:15] "GET / HTTP/1.1" 200 -
+2023-03-20 12:39:15,803 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:15] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:39:15,805 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:15] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:39:15,806 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:15] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 12:39:54,646 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:39:54] "[31m[1mGET /search?search_user=vi HTTP/1.1[0m" 401 -
+2023-03-20 12:40:06,277 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:06] "GET / HTTP/1.1" 200 -
+2023-03-20 12:40:09,025 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:09] "GET /login HTTP/1.1" 200 -
+2023-03-20 12:40:09,037 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:09] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:09,040 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:09] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:10,442 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-20 12:40:10,472 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:10] "GET /articles HTTP/1.1" 200 -
+2023-03-20 12:40:10,483 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:10] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:10,485 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:10] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:13,087 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:13] "GET /search?search_user=vi HTTP/1.1" 200 -
+2023-03-20 12:40:13,096 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:13] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:13,100 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:13] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:13,102 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:13] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:19,197 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:19] "GET /search?search_user=vikas HTTP/1.1" 200 -
+2023-03-20 12:40:19,206 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:19] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:19,210 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:19] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:19,211 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:19] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:23,064 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:23] "GET /articles-by/vikas HTTP/1.1" 200 -
+2023-03-20 12:40:23,074 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:23] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:23,079 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:23] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:23,079 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:23] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:30,608 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:30] "GET / HTTP/1.1" 200 -
+2023-03-20 12:40:30,621 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:30] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:40:30,624 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:30] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:40:30,625 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:40:30] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 12:51:00,620 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:00] "GET /articles HTTP/1.1" 200 -
+2023-03-20 12:51:00,633 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:00] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:51:00,634 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:00] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:51:03,526 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:03] "GET /article-create HTTP/1.1" 200 -
+2023-03-20 12:51:03,537 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:03] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:51:03,539 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:03] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:51:04,191 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:04] "GET / HTTP/1.1" 200 -
+2023-03-20 12:51:04,203 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:04] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:51:04,206 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:04] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:51:04,206 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:04] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 12:51:05,160 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:05] "GET /article-create HTTP/1.1" 200 -
+2023-03-20 12:51:05,170 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:05] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:51:05,171 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:51:05] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:52:00,301 INFO app MainThread : Staring Local Development.
+2023-03-20 12:52:00,301 INFO app MainThread : App setup complete
+2023-03-20 12:52:00,395 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 12:52:00,395 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 12:52:07,533 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:07] "[35m[1mGET /article-create HTTP/1.1[0m" 500 -
+2023-03-20 12:52:07,544 ERROR werkzeug Thread-1 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 316, in __get__
+    obj = instance._get_current_object()  # type: ignore[misc]
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 520, in _get_current_object
+    return get_name(local())  # type: ignore
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\flask\globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+2023-03-20 12:52:19,124 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-03-20 12:52:19,124 ERROR werkzeug Thread-2 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 316, in __get__
+    obj = instance._get_current_object()  # type: ignore[misc]
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 520, in _get_current_object
+    return get_name(local())  # type: ignore
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\flask\globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+2023-03-20 12:52:27,828 INFO app MainThread : Staring Local Development.
+2023-03-20 12:52:27,828 INFO app MainThread : App setup complete
+2023-03-20 12:52:27,906 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 12:52:27,906 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 12:52:31,212 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-03-20 12:52:31,224 ERROR werkzeug Thread-1 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 316, in __get__
+    obj = instance._get_current_object()  # type: ignore[misc]
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 520, in _get_current_object
+    return get_name(local())  # type: ignore
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\flask\globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+2023-03-20 12:52:36,920 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:36] "[35m[1mGET /article-details/1 HTTP/1.1[0m" 500 -
+2023-03-20 12:52:36,921 ERROR werkzeug Thread-2 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 316, in __get__
+    obj = instance._get_current_object()  # type: ignore[misc]
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 520, in _get_current_object
+    return get_name(local())  # type: ignore
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\flask\globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+2023-03-20 12:52:51,006 INFO app MainThread : Staring Local Development.
+2023-03-20 12:52:51,006 INFO app MainThread : App setup complete
+2023-03-20 12:52:51,104 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 12:52:51,104 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 12:52:51,104 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 12:52:51,593 INFO app MainThread : Staring Local Development.
+2023-03-20 12:52:51,593 INFO app MainThread : App setup complete
+2023-03-20 12:52:51,687 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 12:52:51,687 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 12:52:55,256 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:55] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 12:52:55,334 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:55] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:52:55,350 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:55] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:52:55,352 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:55] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:52:55,353 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:52:55] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 12:53:41,024 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:53:41] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 12:53:41,037 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:53:41] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 12:53:41,038 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:53:41] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 12:53:41,047 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:53:41] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 12:53:41,047 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 12:53:41] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 12:56:58,346 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\controllers.py', reloading
+2023-03-20 12:56:58,415 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 12:56:58,955 INFO app MainThread : Staring Local Development.
+2023-03-20 12:56:58,955 INFO app MainThread : App setup complete
+2023-03-20 12:56:59,052 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 12:56:59,055 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:01:44,675 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\forms.py', reloading
+2023-03-20 13:01:44,753 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:01:45,543 INFO app MainThread : Staring Local Development.
+2023-03-20 13:01:45,543 INFO app MainThread : App setup complete
+2023-03-20 13:02:42,766 INFO app MainThread : Staring Local Development.
+2023-03-20 13:02:42,766 INFO app MainThread : App setup complete
+2023-03-20 13:02:42,860 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 13:02:42,860 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 13:02:42,860 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:02:43,380 INFO app MainThread : Staring Local Development.
+2023-03-20 13:02:43,380 INFO app MainThread : App setup complete
+2023-03-20 13:02:43,474 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:02:43,474 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:05:34,109 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:05:34,184 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:05:34,711 INFO app MainThread : Staring Local Development.
+2023-03-20 13:05:34,711 INFO app MainThread : App setup complete
+2023-03-20 13:05:34,803 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:05:34,803 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:06:07,724 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:06:07,799 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:06:08,304 INFO app MainThread : Staring Local Development.
+2023-03-20 13:06:08,304 INFO app MainThread : App setup complete
+2023-03-20 13:06:08,387 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:06:08,387 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:06:23,811 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\forms.py', reloading
+2023-03-20 13:06:23,889 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:06:24,416 INFO app MainThread : Staring Local Development.
+2023-03-20 13:06:24,416 INFO app MainThread : App setup complete
+2023-03-20 13:06:24,514 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:06:24,514 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:07:37,665 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:07:37,715 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:07:38,221 INFO app MainThread : Staring Local Development.
+2023-03-20 13:07:38,221 INFO app MainThread : App setup complete
+2023-03-20 13:07:38,314 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:07:38,314 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:10:11,389 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:10:11,517 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:10:12,081 INFO app MainThread : Staring Local Development.
+2023-03-20 13:10:12,081 INFO app MainThread : App setup complete
+2023-03-20 13:10:12,207 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:10:12,207 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:32:29,869 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\app.py', reloading
+2023-03-20 13:32:29,947 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:32:32,810 INFO app MainThread : Staring Local Development.
+2023-03-20 13:32:32,810 INFO app MainThread : App setup complete
+2023-03-20 13:32:33,666 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:32:33,666 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:32:37,640 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:37] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 13:32:37,705 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:37] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:32:37,718 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:37] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 13:32:37,746 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:37] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 13:32:37,765 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:37] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 13:32:39,857 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-20 13:32:39,864 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:39] "GET / HTTP/1.1" 200 -
+2023-03-20 13:32:39,875 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:39] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:32:39,876 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:39] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 13:32:39,881 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:39] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 13:32:49,994 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:49] "GET /login HTTP/1.1" 200 -
+2023-03-20 13:32:50,006 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:50] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:32:50,007 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:50] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 13:32:51,461 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-20 13:32:51,505 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:51] "GET /articles HTTP/1.1" 200 -
+2023-03-20 13:32:51,515 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:51] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:32:51,517 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:32:51] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 13:33:21,153 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:33:21,221 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:33:21,711 INFO app MainThread : Staring Local Development.
+2023-03-20 13:33:21,711 INFO app MainThread : App setup complete
+2023-03-20 13:33:21,794 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:33:21,794 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:33:24,596 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:33:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-20 13:33:24,609 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:33:24] "GET / HTTP/1.1" 200 -
+2023-03-20 13:33:24,682 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:33:24] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:33:24,685 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:33:24] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 13:33:24,686 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:33:24] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 13:33:32,098 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:33:32,178 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:33:32,818 INFO app MainThread : Staring Local Development.
+2023-03-20 13:33:32,818 INFO app MainThread : App setup complete
+2023-03-20 13:33:32,918 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:33:32,921 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:33:59,744 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\vikas\\Desktop\\blog-lite\\Flask-blog\\application\\auth\\controllers.py', reloading
+2023-03-20 13:33:59,806 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:34:00,349 INFO app MainThread : Staring Local Development.
+2023-03-20 13:34:00,349 INFO app MainThread : App setup complete
+2023-03-20 13:34:13,141 INFO app MainThread : Staring Local Development.
+2023-03-20 13:34:13,141 INFO app MainThread : App setup complete
+2023-03-20 13:34:13,250 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 13:34:13,250 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 13:34:13,250 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:34:13,728 INFO app MainThread : Staring Local Development.
+2023-03-20 13:34:13,728 INFO app MainThread : App setup complete
+2023-03-20 13:34:13,829 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:34:13,829 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:34:33,376 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:34:33] "[31m[1mGET /search?search_user=vikas HTTP/1.1[0m" 401 -
+2023-03-20 13:34:36,101 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:34:36] "GET / HTTP/1.1" 200 -
+2023-03-20 13:35:21,438 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:35:21] "[31m[1mGET /articles HTTP/1.1[0m" 401 -
+2023-03-20 13:36:42,412 INFO app MainThread : Staring Local Development.
+2023-03-20 13:36:42,412 INFO app MainThread : App setup complete
+2023-03-20 13:36:42,506 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 13:36:42,506 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 13:36:44,550 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:36:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-03-20 13:36:44,609 ERROR werkzeug Thread-1 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 316, in __get__
+    obj = instance._get_current_object()  # type: ignore[misc]
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\werkzeug\local.py", line 520, in _get_current_object
+    return get_name(local())  # type: ignore
+  File "C:\Users\vikas\Desktop\blog-lite\venv\lib\site-packages\flask\globals.py", line 47, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+2023-03-20 13:36:51,978 INFO app MainThread : Staring Local Development.
+2023-03-20 13:36:51,978 INFO app MainThread : App setup complete
+2023-03-20 13:36:52,087 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-20 13:36:52,087 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-20 13:36:52,087 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-20 13:36:52,593 INFO app MainThread : Staring Local Development.
+2023-03-20 13:36:52,593 INFO app MainThread : App setup complete
+2023-03-20 13:36:52,726 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-20 13:36:52,729 INFO werkzeug MainThread :  * Debugger PIN: 234-927-931
+2023-03-20 13:36:53,914 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:36:53] "GET / HTTP/1.1" 200 -
+2023-03-20 13:36:53,996 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:36:53] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 13:36:53,997 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:36:53] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
+2023-03-20 13:36:53,998 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 13:36:53] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:05,094 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:05] "GET /login HTTP/1.1" 200 -
+2023-03-20 14:56:05,104 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:05] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:05,105 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:05] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:06,452 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-20 14:56:06,471 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:06] "GET /articles HTTP/1.1" 200 -
+2023-03-20 14:56:06,483 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:06] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:06,484 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:06] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:08,390 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:08] "GET /article-details/1 HTTP/1.1" 200 -
+2023-03-20 14:56:08,401 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:08] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:08,403 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:08] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:08,405 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:08] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:08,406 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:08] "[36mGET /static/images/create-driver.PNG HTTP/1.1[0m" 304 -
+2023-03-20 14:56:12,930 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:12] "GET /articles-by/vikas HTTP/1.1" 200 -
+2023-03-20 14:56:12,948 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:12] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:12,950 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:12] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:12,952 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:12] "[36mGET /static/images/like2.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:15,406 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:15] "GET /edit-profile HTTP/1.1" 200 -
+2023-03-20 14:56:15,415 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:15] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:15,416 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:15] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:27,140 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-20 14:56:27,145 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:27] "GET / HTTP/1.1" 200 -
+2023-03-20 14:56:27,156 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:27] "[36mGET /static/blog.css HTTP/1.1[0m" 304 -
+2023-03-20 14:56:27,161 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:27] "[36mGET /static/images/book.png HTTP/1.1[0m" 304 -
+2023-03-20 14:56:27,163 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [20/Mar/2023 14:56:27] "[36mGET /static/images/think.jpg HTTP/1.1[0m" 304 -
