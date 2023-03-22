@@ -16,7 +16,6 @@
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
 
 - Framework - Flask (Sqlite, Jinja-2, Bootstrap, Wtf)
 - Authentication - Flask-Login
@@ -25,7 +24,6 @@ Dillinger uses a number of open source projects to work properly:
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
