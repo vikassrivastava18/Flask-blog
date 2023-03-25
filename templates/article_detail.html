@@ -1,34 +1,29 @@
 {% extends "base.html" %}
 
 {% block css %}
-<style>
-    img{
-        width:15px;
-        max-height:100px;
-    }
-</style>
+
 {% endblock %}
 {% block content %}
+        <div class="container p-4">
+            <h3 class="title">
+                <a href="{{ url_for('articles_by_author', user_name=article.User.username) }}">
+                {{ article.User.username }} &nbsp;
+                </a>
+            </h3>
 
-    <h3 class="title">
-            <a href="{{ url_for('articles_by_author', user_name=article.User.username) }}">
-            {{ article.User.username }} &nbsp;
-            </a>
-    </h3>
+            <h4>{{ article.Article.title }}</h4>
+                 <a href="{{ url_for('like', article_id=article.Article.article_id) }}">
+                    <img src="{{url_for('static', filename='images/like2.png')}}" style="width:30px;" alt="Website Logo">
+                    ({{ article.Article.likes|length }})
+                 </a>
+            <p class="p-4">
+                <img src="{{url_for('static', filename='images/think.jpg')}}" id="main_img_top"><br>
+                {{ article.Article.content }}
+            </p>
+        </div>
 
-        <h4>{{ article.Article.title }}
-        </h4>
-         <a href="{{ url_for('like', article_id=article.Article.article_id) }}">
-            <img src="{{url_for('static', filename='images/like2.png')}}" style="width:30px;" alt="Website Logo">
-            ({{ article.Article.likes|length }})
-         </a>
-        <p>
-            <img src="{{ url_for('static', filename = 'images/'+article.Article.image_src) }}"
-                 id="{{article.Article.article_id}}">
-            {{ article.Article.content }}
-        </p>
+
     <hr>
-
         <form action="" method="post" enctype="multipart/form-data" style="">
         {{ form.hidden_tag() }}
         <div class="form-group">
@@ -44,7 +39,7 @@
 
         <p>{{ form.submit(class_="form-control btn btn-primary") }}</p>
     </form>
-<hr>
+        <hr>
 
         <h4>
             Messages

@@ -8,7 +8,7 @@
 </style>
 {% endblock %}
 {% block content %}
-
+<img src="{{ current_user.avatar(128) }}" alt="" width="64">
 <div class="column is-4 is-offset-4">
     <h3 class="title">Articles by {{ username }} &nbsp;
         {% if not username == current_user.username %}

@@ -14,7 +14,6 @@ logging.basicConfig(filename='debug.log', level=logging.DEBUG,
 
 def create_app():
     app = Flask(__name__, template_folder="templates")
-
     if os.getenv('ENV', "development") == "production":
         app.logger.info("Currently no production config is setup.")
         raise Exception("Currently no production config is setup.")
@@ -22,6 +21,8 @@ def create_app():
         app.logger.info("Staring Local Development.")
         print("Staring Local Development")
         app.config.from_object(LocalDevelopmentConfig)
+    if not os.path.exists('db_directory'):
+        os.mkdir('db_directory')
     db.init_app(app)
     api = Api(app)
     app.app_context().push()
@@ -30,9 +31,9 @@ def create_app():
     # app.logger.info("App setup complete")
 
 
-login_manager = LoginManager()
 app, api = create_app()
 app.static_folder = 'static'
+login_manager = LoginManager()
 login_manager.init_app(app)
 
 

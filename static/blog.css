@@ -106,9 +106,7 @@ main img{
 footer{
 	clear:both;
 	width: 100%;
-	padding:15px;
-	background-color: #000;
-  color:#fff;
+    color: #d64161
 }
 
 @media screen and (min-width:801px){
