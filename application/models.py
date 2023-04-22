@@ -71,4 +71,3 @@ class ArticleComment(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey("user.user_id", ondelete="CASCADE"))
     comment = db.Column(db.String)
 
-

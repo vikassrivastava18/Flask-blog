@@ -21,6 +21,7 @@ def login():
 
             user = User.query.filter_by(username=form.username.data).first()
             if user is None:
+
                 flask.flash('Wrong credentials!')
                 return redirect(url_for('login'))
             login_user(user)
@@ -59,8 +60,6 @@ def register():
 @app.route('/edit-profile', methods=['GET', 'POST'])
 @login_required
 def edit_profile():
-    if not current_user.is_authenticated:
-        return redirect(url_for('login'))
     form = RegistrationEditForm()
     if request.method == 'GET':
         return render_template('profile_edit.html', title='Register', form=form, user=current_user)
@@ -82,3 +81,4 @@ def logout():
     logout_user()
     flash('Logged out successfully, thanks for visiting')
     return redirect(url_for('home'))
+

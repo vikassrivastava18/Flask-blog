@@ -66,10 +66,12 @@ class UserAPI(Resource):
         password = args.get("password", None)
         print("password", password)
         if username is None:
-            raise BusinessValidationError(status_code=400, error_code="BE1001", error_message="username is required")
+            raise BusinessValidationError(status_code=400, error_code="BE1001",
+                                          error_message="username is required")
 
         if email is None:
-            raise BusinessValidationError(status_code=400, error_code="BE1002", error_message="email is required")
+            raise BusinessValidationError(status_code=400, error_code="BE1002",
+                                          error_message="email is required")
 
         if "@" in email:
             pass

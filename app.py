@@ -41,10 +41,12 @@ login_manager.init_app(app)
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-
 # Import all the controllers so they are loaded
+
+from application.articles.controllers import *
 from application.controllers import *
 from application.auth.controllers import *
+
 # Crete all the API endpoints
 from application.api import UserAPI, ArticleAPI
 api.add_resource(UserAPI, "/api/user", "/api/user/<string:username>")
